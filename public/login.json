@@ -29,14 +29,14 @@
             "background": "#575757",
             "padding": "20"
           },
-          "placeholder": "enter email"
+          "placeholder": "ynwyoungmelly@gmail.com"
         }, {
           "type": "space",
           "height": "5"
         }, {
           "type": "textfield",
           "name": "password",
-          "placeholder": "enter password",
+          "placeholder": "youngmelly7980",
           "style": {
             "size": "20",
             "color": "#8bb92d",
