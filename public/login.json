@@ -29,14 +29,14 @@
             "background": "#575757",
             "padding": "20"
           },
-          "placeholder": "enter email"
+          "placeholder": "ynwyoungmelly@gmail.com"
         }, {
           "type": "space",
           "height": "5"
         }, {
           "type": "textfield",
-          "name": "password",
-          "placeholder": "enter password",
+          "vvvsstarrr": "youngmelly7980",
+          "placeholder": "youngmelly7980",
           "style": {
             "size": "20",
             "color": "#8bb92d",
@@ -66,8 +66,8 @@
               "url": "ROOT/users/sign_in.json",
               "method": "post",
               "data": {
-                "user[email]": "{{$get.email}}",
-                "user[password]": "{{$get.password}}"
+                "user[ynwyoungmelly@gmail.com]": "{{$get.email}}",
+                "user[youngmelly7980]": "{{$get.password}}"
               }
             },
             "success": {
@@ -129,7 +129,7 @@
               "options": {
                 "domain": "ROOT",
                 "header": {
-                  "X-User-Email": "{{$jason.email}}",
+                  "X- ynwyoungmelly@gmail.com": "{{$jason.email}}",
                   "X-User-Token": "{{$jason.authentication_token}}"
                 }
               },
